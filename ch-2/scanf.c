@@ -1,20 +1,42 @@
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
+
+// int main(){
+
+//     char str[50];
+
+//     printf("enter your name\n");
+
+//     scanf("%s",&str);
+
+//     printf("you have entered%s\n: ",str);
+
+
+
+//     return 0;
+
+// }
+
+
+// example 2
+
+
+
+#include <stdio.h>
 
 int main(){
 
-    char str[50];
 
-    printf("enter your name\n");
+    int std;
 
-    scanf("%s",&str);
+    printf("enter your standard\n");
 
-    printf("you have entered%s\n: ",str);
+    scanf("%d",&std);
 
+    printf("you are studying in :%d\n",std);
 
 
     return 0;
-
 }
