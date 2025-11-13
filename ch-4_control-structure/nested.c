@@ -11,7 +11,7 @@ int main(){
     int drivingLicence=1;
 
 
-    if(age>18){
+    if(age>=18){
 
         if(drivingLicence == 1){
             printf("you can drive vehicle");

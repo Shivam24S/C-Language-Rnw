@@ -11,7 +11,7 @@ int main(){
 
     scanf("%s",&name);
 
-    printf("you name is %s\n");
+    printf("you name is %s\n",name);
 
 
 
