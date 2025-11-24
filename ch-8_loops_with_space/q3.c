@@ -6,17 +6,20 @@ int main()
     
     int num=5;
     
+    
     for(int i=5;i>=1;i--){
         
         for(int j=1;j<i;j++){
             printf(" ");
         }
         for(int k=i;k<=num;k++){
-            printf("%d",k);
+            printf("%d",i);
         }
         printf("\n");
-        
     }
+        
+    
+    
 
     return 0;
 }
