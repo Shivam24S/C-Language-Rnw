@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 
 #include <string.h>
@@ -5,14 +7,14 @@
 
 int main(){
 
-    char word[] = "hello good morning";
+    char greeting[] ="hello good morning";
 
-    char copy[sizeof(word)] ="";
+    char copyString[sizeof(greeting)];
 
-    strcpy(copy,word);
 
-    printf("copy :%s",copy);
+    strcpy(copyString,greeting);
+
+    printf("copy string  :%s",copyString);
 
     return 0;
-
 }

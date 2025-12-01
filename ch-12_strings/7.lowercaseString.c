@@ -7,21 +7,25 @@
 
 int main(){
 
-    char upperCase[]="ABCDEFGHI";
 
-    char lowerCase[] ="";
+    char alphabet[] = "ABCDE";
+
+    char lowerCase[sizeof(alphabet)];
+
 
     int i;
 
-    for(i=0;upperCase[i]!='\0';i++){
-        lowerCase[i] = tolower(upperCase[i]);
+    for(i=0;alphabet[i]!='\0';i++){
+        lowerCase[i] = tolower(alphabet[i]);
     }
 
-    lowerCase[i]='\0';
+    lowerCase[i] = '\0';
 
-    printf("lowerCase: %s",lowerCase);
+
+    printf("lowerCase :%s",lowerCase);
+
+
 
     return 0;
-
-
 }
+

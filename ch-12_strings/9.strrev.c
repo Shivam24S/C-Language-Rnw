@@ -2,30 +2,37 @@
 
 #include <stdio.h>
 
-#include <string.h>
+#include<string.h>
+
+
 
 int main(){
 
-    char alphabet[] ="abcdefgh";
 
-    char reverseString[sizeof(alphabet)];
+    char alphabet[]="abcdefg";
 
-    int i,j;
+    char reverseAlphabet[sizeof(alphabet)];
 
     int length = strlen(alphabet);
 
+    printf("length :%d\n",length);
+
+    printf("alphabet :%s\n",alphabet);
+
+    int i,j;
+
 
     for(i=length-1,j=0;i>=0;i--,j++){
-        reverseString[j] = alphabet[i];
+        reverseAlphabet[j] = alphabet[i];
     }
 
-    reverseString[j] ='\0';
+    reverseAlphabet[j] = '\0';
 
-    printf("reverseString: %s",reverseString);
+    printf("reverse string : %s\n",reverseAlphabet);
 
-
-    
 
     return 0;
+
+
 
 }
