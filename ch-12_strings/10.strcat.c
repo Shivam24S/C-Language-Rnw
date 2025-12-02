@@ -1,21 +1,22 @@
 
-
 #include <stdio.h>
+
 
 #include <string.h>
 
 
+int main (){
 
-int main(){
+    char greeting[] = "hello ";
+
+    char word2[]="good morning";
 
 
-    char word1[]="hello ";
+    strcat(greeting,word2);
 
-    char word2[]="goodMorning";
 
-    strcat(word1,word2);
-
-    printf("concating :%s",word1);
+    printf("concat word :%s",greeting);
 
     return 0;
+
 }
