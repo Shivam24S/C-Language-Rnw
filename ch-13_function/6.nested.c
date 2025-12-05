@@ -8,15 +8,12 @@ void bankBalance(){
     printf("checking bank balance....");
 }
 
-
-
 void withDraw(){
 
     bankBalance();
 
     printf("\nmoney transfer successfully");
 }
-
 
 
 int main(){
