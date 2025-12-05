@@ -1,17 +1,31 @@
 
 
+
 #include <stdio.h>
 
 
-int main() {
+int main(){
 
 
-    int a =5 ;
+    int a =5;
 
     int *ptr = &a;
 
-    printf("%d",ptr);
-    printf("\n after %d",ptr+1);
+
+    char word = 'a';
+
+
+    printf(" address of pointer: %u\n",ptr);
+
+
+    printf("now scalling pointer value :%u\n",ptr+1);
+
+
+    printf("address of word:%u\n",word);
+
+    printf("scale address of word:%u\n",word +1);
+
 
     return 0;
+
 }
