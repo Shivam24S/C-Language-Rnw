@@ -1,21 +1,21 @@
 
 
-
 #include <stdio.h>
 
 
 int main(){
 
-    int num = 5;
+
+    int num=50;
 
     int *ptr = &num;
 
-    int **p = &ptr;
+    int **ptr2 = &ptr;
 
-    printf("%d\n",num);
-    printf("%d\n",**p);
-    printf("%d\n",*ptr);
+    printf("%d=>%p\n",*ptr,ptr);
+    printf("%d=>%p\n",**ptr2,ptr2);
 
 
     return 0;
+
 }

@@ -2,21 +2,20 @@
 
 #include <stdio.h>
 
+void change(int *num)
+{
 
-void change(int *x){
-
-    *x=100;
+    *num = 50;
 }
 
-int main(){
+int main()
+{
 
-
-    int num=20;
+    int num = 24;
 
     change(&num);
 
-    printf("%d",num);
+    printf("%d", num);
 
     return 0;
-
 }
