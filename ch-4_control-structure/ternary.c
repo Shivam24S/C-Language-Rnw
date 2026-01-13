@@ -12,18 +12,18 @@ int main(){
     int b=10;
 
 
-    // if(a>b){
-    //     printf("a is greater than b");
-    // }else{
-    //     printf("b is greater than a");
-    // }
+    if(a>b){
+        printf("a is greater than b");
+    }else{
+        printf("b is greater than a");
+    }
 
     // syntax
 
     // () ? :
 
 
-    (a<b)?printf("a is greater than b") :printf("b is greater than a");
+    // (a<b)?printf("b is greater than a") :printf("a is greater than b");
 
     return 0;
 

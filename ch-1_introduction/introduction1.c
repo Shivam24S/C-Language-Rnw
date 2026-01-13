@@ -2,51 +2,20 @@
 
 // #include <stdio.h>
 
-
-// int main(){
-
-
+// int main()
+// {
 
 //     printf("hello");
 
-
 //     return 0;
-
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
+    printf("hello world");
 
-printf("hello world");
-
-return 0;
-
+    return 0;
 }
-

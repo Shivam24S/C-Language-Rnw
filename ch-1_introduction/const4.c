@@ -4,8 +4,8 @@
 
 #define pi 3.14
 
-
-int main(){
+int main()
+{
 
     // int num;
 
@@ -15,16 +15,11 @@ int main(){
 
     // printf("%d",num);
 
-
     const int num = 10;
 
-    printf("%d",num);
+    printf("%d", num);
 
-    
-
-    printf("%f",pi);
-
+    printf("\n%f", pi);
 
     return 0;
 }
-

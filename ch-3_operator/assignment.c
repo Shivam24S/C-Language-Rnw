@@ -9,7 +9,7 @@ int main(){
 
     int a = 5;
 
-    // add and assign
+    // add and assign +=
 //  a =  a + 10
 
     printf("add and assign: %d\n",a+=10);
